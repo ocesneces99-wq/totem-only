@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "totemonlyfswap",
+  "version": "${version}",
+  "name": "Totem Only F Swap",
+  "description": "Client-side: the F offhand swap only works when the selected hotbar item is a Totem of Undying.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.totemonlyfswap.TotemOnlyFSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
